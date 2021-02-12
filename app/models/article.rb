@@ -1,5 +1,5 @@
 class Article < ApplicationRecord
-  extend ActiveHash::Associations::ActiveRecordExtensions
+
   belongs_to_active_hash :genre
 
   #空の投稿を保存できないようにする
